@@ -44,3 +44,29 @@ _________________________________________________________________________
 
 Ensamble Classification Approach - Majority vote out of the 5 classications determines result, not just 1 classifcation alone
 
+How Classifiers Were Tested:
+
+Participants input numbers based on random number audio stream
+
+Before Combining Smartwatch and Smartphone Data:
+One versus One: From same individual participant- 84.58% accuracy for SH-NHHT, 83.5% accuracy for SH-HHT, <12min computation time
+One versus Rest: From one participant against rest of participants- 70.08% accuracy for SH-NHHT and 85.83% accuracy for SH-HHT, <21min computation time
+All versus All: Percentage of correct inferences on all participants against classifiers trained from training set of all participants
+- accuracy of 88.16% for SH-NHHT and 85.83% for SH-HHT, 34min computation time
+
+Lower Accuracy with lower sampling frequency but still fairly accurate (see figure 7 in paper)
+
+Accuracy increased marginally after Smartwatch and Smartphone data were used in combination
+
+When typing at a more natural speed (faster): 
+Classification accuracy dropped. Mean Classification accuracy of 52% for SH-NHHT and 61% for SH-HHT
+
+Cross Device Performance: 
+Classification accuracy lowered in large variations, some by a few percentage points and some dropping over 30 percentage points
+
+QWERTY Keypads:
+Classifciation accuracy lowered to below 50% in all alphabet cases, may be possible to improve accuracy by analyzing keyboard characteristics or by performing dictionary based search
+
+
+
+
